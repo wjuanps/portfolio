@@ -14,230 +14,229 @@
 /*   11 - FOOTER SECTION */
 /*   12 - RESPONSIVE SECTION */
 
-
-
 /******** GENERAL SETTINGS SECTION START ********/
 
 .title {
-    text-align: center;
-    font-weight: 600;
-    font-size: 9pt;
-    letter-spacing: 8pt;
+  text-align: center;
+  font-weight: 600;
+  font-size: 9pt;
+  letter-spacing: 8pt;
 }
-
 
 /******** TYPOGRAPHY SECTION START ********/
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 2pt;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2pt;
 }
 
+.name {
+  font-size: 18pt !important;
+}
 
 p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 10pt;
-    color: #898989;
-    line-height: 25px; 
+  font-family: "Roboto", sans-serif;
+  font-size: 10pt;
+  color: #898989;
+  line-height: 25px;
 }
-
 
 /******** JUMBOTRON SECTION START ********/
 
 .jumbotron {
-	background: url('../img/ava.jpg') no-repeat center center;
-	background-size: cover;
-	width: auto;
-	min-height: 800px;
-    background-color: #1b1b1b;
-    background-attachment: fixed;
+  background: url("../img/background.jpg") no-repeat center center;
+  background-size: cover;
+  width: auto;
+  min-height: 800px;
+  background-color: #1b1b1b;
+  background-attachment: fixed;
 }
 
 .logo {
-    height: 100px;
-    width: auto;
-    float: left;
-    margin-top: 20px;
+  height: 100px;
+  width: auto;
+  float: left;
+  margin-top: 20px;
 }
 
 /******** NAVIGATION SECTION START ********/
 
 #sidebar {
-    background: #151718;
-    width: 200px;
-    height: 100%;
-    display: block;
-    position: absolute;
-    left: -200px;
-    top: 0px;
-    transition: left 0.3s linear;
-    position: fixed;
-    z-index: 1000;
+  background: #151718;
+  width: 200px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  left: -200px;
+  top: 0px;
+  transition: left 0.3s linear;
+  position: fixed;
+  z-index: 1000;
 }
 
-
-
 #sidebar.visible {
-    left: 0px;
-    transition: left 0.3s linear;
+  left: 0px;
+  transition: left 0.3s linear;
 }
 
 #sidebar-btn {
-    display: inline-block;
-    vertical-align: middle;
-    width: 30px;
-    height: 15px;
-    cursor: pointer;
-    position: absolute;
-    top: 60px;
-    right: -60px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 30px;
+  height: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 60px;
+  right: -60px;
 }
 
 #sidebar-btn span {
-    height: 2px;
-    width: 30px;
-    background: #898989;
-    margin-bottom: 5px;
-    display: block;
+  height: 2px;
+  width: 30px;
+  background: #898989;
+  margin-bottom: 5px;
+  display: block;
 }
 
 ul {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 ul li {
-    list-style: none;
+  list-style: none;
 }
 
 #sidebar ul li a {
-    font-family: 'Roboto', sans-serif;
-    letter-spacing: 1pt;
-    color: #fff;
-    border-bottom: 1px solid #111;
-    display: block;
-    padding: 15px;
-    text-decoration: none;
-    margin-top: 20px; 
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1pt;
+  color: #fff;
+  border-bottom: 1px solid #111;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  margin-top: 20px;
 }
 
 #sidebar ul li a:hover {
-    -webkit-transition: all 0.6s ease-in;
-    -moz-transition: all 0.6s ease-in;
-    -ms-transition: all 0.6s ease-in;
-    -o-transition: all 0.6s ease-in;
-    transition: all 0.6s ease-in;
-    color: #707070;
+  -webkit-transition: all 0.6s ease-in;
+  -moz-transition: all 0.6s ease-in;
+  -ms-transition: all 0.6s ease-in;
+  -o-transition: all 0.6s ease-in;
+  transition: all 0.6s ease-in;
+  color: #707070;
 }
 
-
 .jumbotron h2 {
-    font-size: 12pt;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: #fff;
-    margin-top: 300px;
-    letter-spacing: 8pt;
-    color: #fff;
+  font-size: 12pt;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  color: #fff;
+  margin-top: 300px;
+  letter-spacing: 8pt;
+  color: #fff;
 }
 
 .jumbotron h3 {
-    font-size: 10pt;
-    font-weight: 100; 
-    text-align: center;
-    color: #dcdcdc;
-    padding-top: 10px;
-    letter-spacing: 1.5pt;
+  font-size: 10pt;
+  font-weight: 100;
+  text-align: center;
+  color: #dcdcdc;
+  padding-top: 10px;
+  letter-spacing: 1.5pt;
 }
 
 /******** ABOUT SECTION START ********/
 
 .about {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .about .line {
-    width: 25px;
-    height: 1px;
-    background-color: #dcdcdc;
+  width: 25px;
+  height: 1px;
+  background-color: #dcdcdc;
 }
 
 .about .main-text {
-    margin: 20px auto;
-    font-size: 10pt;
-    font-weight: 400;
-    letter-spacing: 1px;
-    width: 600px;
-    color: #898989;
-    line-height: 15pt;
+  margin: 20px auto;
+  font-size: 10pt;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 600px;
+  color: #898989;
+  line-height: 15pt;
 }
-
 
 /******** SERVICES SECTION START ********/
 
 .services {
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
-
 .services .fa {
-    font-size: 22pt;
-    margin-top: 10px;
+  font-size: 22pt;
+  margin-top: 10px;
 }
 
 .services h4 {
-    font-size: 10pt;
-    font-weight: 400;
-    letter-spacing: 1pt;
-    margin-top: 20px; 
+  font-size: 10pt;
+  font-weight: 400;
+  letter-spacing: 1pt;
+  margin-top: 20px;
 }
 
 .services p {
-     margin-top: 10px;
-     font-size: 10pt;
-     font-weight: 400;
-     color: #898989;
-     letter-spacing: 1px;
-     line-height: 15pt;
+  margin-top: 10px;
+  font-size: 10pt;
+  font-weight: 400;
+  color: #898989;
+  letter-spacing: 1px;
+  line-height: 15pt;
 }
 
 /******** WORK SECTION START ********/
 
 .work {
-    margin-top: 150px;
-    width: auto;
-    background-color: #1b1b1b;
-    height: auto;
+  margin-top: 150px;
+  width: auto;
+  background-color: #1b1b1b;
+  height: auto;
 }
 
 .work .title {
-    color: #fff;
-    margin-top: 100px;
+  color: #fff;
+  margin-top: 100px;
 }
 
 .work .items {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .work .items img {
-    filter: grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    transition: filter 600ms ease;
-    -webkit-transition: -webkit-filter 600ms ease;
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  transition: filter 600ms ease;
+  -webkit-transition: -webkit-filter 600ms ease;
 }
 
 .work .items img:hover {
-    cursor: pointer;
-    filter: grayscale(0);
-    -webkit-filter: grayscale(0);
+  cursor: pointer;
+  filter: grayscale(0);
+  -webkit-filter: grayscale(0);
 }
 
 .margin {
-    margin-bottom: 150px;
-} 
+  margin-bottom: 150px;
+}
 
 .work .col-md-4 {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 /* overlay at start */
@@ -277,131 +276,125 @@ ul li {
 /******** CLIENTS SECTION START ********/
 
 .clients .title {
-    margin-top: 150px;
+  margin-top: 150px;
 }
 
 .clients .line {
-    width: 25px;
-    height: 1px;
-    background-color: #dcdcdc;
+  width: 25px;
+  height: 1px;
+  background-color: #dcdcdc;
 }
 
 .clients p {
-    text-align: center;
-    letter-spacing: 1pt;
+  text-align: center;
+  letter-spacing: 1pt;
 }
 
 .logos img {
-    margin-top: 50px;
+  margin-top: 50px;
 }
-
 
 /******** SOCIAL MEDIA SECTION START ********/
 
 .links {
-    margin-top: 150px;
-    background-color: #1b1b1b;
-    width: auto;
-    height: 300px;
+  margin-top: 150px;
+  background-color: #1b1b1b;
+  width: auto;
+  height: 300px;
 }
 
 .links .fa {
-    font-size: 30px;
-    margin-top: 130px;
-    color: #fff; 
+  font-size: 30px;
+  margin-top: 130px;
+  color: #fff;
 }
 
 .links .fa:hover {
-    -webkit-transition: all 0.6s ease-in;
-    -moz-transition: all 0.6s ease-in;
-    -ms-transition: all 0.6s ease-in;
-    -o-transition: all 0.6s ease-in;
-    transition: all 0.6s ease-in;
-    color: #707070;
+  -webkit-transition: all 0.6s ease-in;
+  -moz-transition: all 0.6s ease-in;
+  -ms-transition: all 0.6s ease-in;
+  -o-transition: all 0.6s ease-in;
+  transition: all 0.6s ease-in;
+  color: #707070;
 }
 
 /******** CONTACT SECTION START ********/
 
 .contact {
-    background: url('../img/back.jpg') no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    background-color: #1b1b1b;
-    width: auto;
-    height: 550px;
+  background: url("../img/back.jpg") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-color: #1b1b1b;
+  width: auto;
+  height: 550px;
 }
 
 .contact .info .fa {
-    font-size: 22pt;
-    color: #fff;
+  font-size: 22pt;
+  color: #fff;
 }
 
 .contact .info {
-    margin-top: 225px;
+  margin-top: 225px;
 }
 
 .contact .info h4 {
-    color: #fff;
+  color: #fff;
 }
 
 /******** FOOTER SECTION START ********/
 
 footer {
-    background-color: #1b1b1b;
+  background-color: #1b1b1b;
 }
 
 footer h4 {
-    font-size: 8pt;
-    letter-spacing: 2pt;
-    margin: 50px auto;
-    color: #fff;
+  font-size: 8pt;
+  letter-spacing: 2pt;
+  margin: 50px auto;
+  color: #fff;
 }
 
 /******** RESPONSIVE SECTION START ********/
 
-    
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .about .main-text {
+    width: 450px;
+  }
+  .menu-btn .fa {
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  .contact .info {
+    margin-top: 170px;
+  }
+}
 
-/* Small Devices, Tablets */ 
-    @media only screen and (max-width : 768px) {
-        .about .main-text {
-            width: 450px;
-        }
-        .menu-btn .fa {
-          margin-top: 25px;
-          margin-left: 40px;
-          
-        }
-        .contact .info {
-            margin-top: 170px;
-        }
-    }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .about .main-text {
+    width: 330px;
+  }
+  .menu-btn .fa {
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  .contact .info {
+    margin-top: 170px;
+  }
+}
 
-/* Extra Small Devices, Phones */ 
-    @media only screen and (max-width : 480px) {
-       .about .main-text {
-            width: 330px;
-        }
-       .menu-btn .fa {
-          margin-top: 25px;
-          margin-left: 40px;
-          
-        }
-        .contact .info {
-            margin-top: 170px;
-        }
-    }
-
-/* Custom, iPhone Retina */ 
-    @media only screen and (max-width : 320px) {
-        .about .main-text {
-            width: 230px;
-        }
-        .menu-btn .fa {
-          margin-top: 25px;
-          margin-left: 300px;
-           
-        }
-        .contact .info {
-            margin-top: 170px;
-        }
-    }
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  .about .main-text {
+    width: 230px;
+  }
+  .menu-btn .fa {
+    margin-top: 25px;
+    margin-left: 300px;
+  }
+  .contact .info {
+    margin-top: 170px;
+  }
+}
