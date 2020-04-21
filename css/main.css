@@ -214,18 +214,18 @@ ul li {
   margin-top: 100px;
 }
 
-.work .items {
+.work .items-p {
   margin-top: 50px;
 }
 
-.work .items img {
+.work .items-p img {
   filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   transition: filter 600ms ease;
   -webkit-transition: -webkit-filter 600ms ease;
 }
 
-.work .items img:hover {
+.work .items-p img:hover {
   cursor: pointer;
   filter: grayscale(0);
   -webkit-filter: grayscale(0);
